@@ -21,8 +21,7 @@ app.use(cookieParser());
 
 // Middleware to handle CORS
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000/");
-  res.setHeader("Access-Control-Allow-Origin", "http://127.0.0.1:3000/");
+  res.setHeader("Access-Control-Allow-Origin", "https://jalenluorion.github.io/");
   res.setHeader(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content, Accept, Content-Type, Authorization"
